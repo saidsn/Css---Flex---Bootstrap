@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: font;
+    src: url(../fonts/RubikIso-Regular.ttf);
+}
+
+
+
+#nav-area {
+    background-color: black;
+}
+
+#nav-area .row {
+    position: relative;
+}
+
+#nav-area .container .name {
+
+    color: white;
+    position: absolute;
+    top: 18px;
+
+}
+
+#nav-area ul li a {
+    color: white;
+}
+
+#info .welcome {
+    width: 850px;
+    height: 250px;
+    margin-top: 20px;
+    background-color: #EEEEEE;
+    position: relative;
+    border-radius: 5px;
+}
+
+#info .welcome .position {
+    position: absolute;
+    left: 30px;
+    top: 60px;
+}
+
+#info .welcome .position h1 {
+    font-family: font;
+}
+
+#info .side-bar {
+    width: 300px;
+    height: 420px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #EEEEEE;
+    position: relative;
+    border-radius: 5px;
+}
+
+#info .side-bar .position {
+    position: absolute;
+    left: 50px;
+    top: 20px;
+}
+
+#info .side-bar .position li {
+    list-style: none;
+    padding-top: 5px;
+}
+
+#info .side-bar .position li a {
+
+    text-decoration: none;
+}
+
+#info-card .container .cards a {
+    color: black;
+}
+
+#info-card .container .cards {
+    margin-top: -100px;
+    margin-left: -45px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#info-card .container .cards .my-border {
+    border: none;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+    background-color: #EEEEEE;
+}
+#end p{
+    margin-top: 20px;
+    color: black;
+}
